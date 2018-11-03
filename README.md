@@ -1,6 +1,4 @@
-# workaround-CLJS-2955
-
-Monkey patches to workaround CLJS-2955.
+A work around for [CLJS-2955](https://dev.clojure.org/jira/browse/CLJS-2955).
 
 Simply depend on this library as a [git dep](https://clojure.org/news/2018/01/05/git-deps). 
 
