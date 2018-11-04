@@ -1,3 +1,6 @@
-A work around for [CLJS-2955](https://dev.clojure.org/jira/browse/CLJS-2955).
+Workarounds for issues in ClojureScript 1.10.439, in the form of monkey patches.
 
-Simply depend on this library as a [git dep](https://clojure.org/news/2018/01/05/git-deps) and require `workaround-cljs-2955.core`. Monkey patching to fix CLJS-2955 occurs as a side effect when this namespace is required.
+* [CLJS-2955](https://dev.clojure.org/jira/browse/CLJS-2955).
+* [CLJS-2956](https://dev.clojure.org/jira/browse/CLJS-2956).
+
+Simply depend on this library as a [git dep](https://clojure.org/news/2018/01/05/git-deps) and require `workarounds1.10.439.core`. Monkey patching occurs as a side effect when this namespace is required.
